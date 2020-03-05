@@ -10,7 +10,6 @@ import App from './components/app';
 import './i18n';
 
 export default () => {
-
   const store = configureStore({
     reducer: reducers,
     middleware: [...getDefaultMiddleware(), logger],
@@ -19,11 +18,11 @@ export default () => {
   });
 
 
-  document.title = `React/Redux boilerplate`;
+  document.title = 'React/Redux boilerplate';
   render(
     <Provider store={store}>
       <App />
     </Provider>,
-    document.getElementById('main'),
+    document.getElementById('content'),
   );
 };

@@ -2,15 +2,14 @@ import React from 'react';
 import connect from '../connect';
 
 
-const mapStateToProps = () => {
-};
+const mapStateToProps = () => ({});
 
 @connect(mapStateToProps)
 class App extends React.PureComponent {
   render() {
     return (
       <div>
-        Hello world!
+        Welcome to React!
       </div>
     );
   }
