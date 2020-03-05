@@ -1,1 +1,2 @@
-# react_redux_template
+# 
+Preconfigured environment for fast starting react/redux application development
