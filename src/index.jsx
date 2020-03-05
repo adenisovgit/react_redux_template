@@ -24,6 +24,6 @@ export default () => {
     <Provider store={store}>
       <App />
     </Provider>,
-    document.getElementById('body'),
+    document.getElementById('main'),
   );
 };
