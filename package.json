@@ -5,8 +5,8 @@
   "main": "dist/index.html",
   "bin": {},
   "scripts": {
-    "start": "webpack-dev-server --env.production=test --history-api-fallback --inline --progress",
-    "build": "webpack --env.production=prod --history-api-fallback --inline --progress"
+    "start": "webpack-dev-server --env.production=test --history-api-fallback --progress",
+    "build": "webpack --env.production=prod --progress"
   },
   "repository": {
     "type": "git",
